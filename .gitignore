@@ -1,0 +1,25 @@
+# Dependencies
+node_modules
+
+# Environment
+.env
+.env.*
+
+# OS
+.DS_Store
+
+# Build
+.next
+dist
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Project specific
+downloads/
+.ticker_cache.json
+my_prompt.txt
