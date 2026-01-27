@@ -96,12 +96,13 @@ Last Updated: 2026-01-27
 | v0.2 | 2025-01-26 | HTML 转 Markdown，文件瘦身 |
 | v0.3 | 2025-01-27 | Earnings Call transcript (Motley Fool) |
 | v0.4 | 2026-01-27 | Streamlit Web UI + 模糊匹配 |
+| v1.0 | 2026-01-27 | 日历视图 + Watchlist + 批量下载 |
 
 ---
 
 ## 5. 未来规划
 
-### v1.0 (未来: 日历 + Watchlist)
+### v1.0 ✅ (已完成: 日历 + Watchlist)
 **Goal**: 可视化追踪关注股票的财报和 Earnings Call 日期。
 
 - **Scope**:

@@ -1,0 +1,7 @@
+# Stock Watchlist 示例
+# 每行一个股票代码，或用逗号/空格分隔
+# 以 # 开头的行为注释
+
+AAPL
+NVDA
+MSFT

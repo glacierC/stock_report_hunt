@@ -1,6 +1,24 @@
 # Changelog
 Last Updated: 2026-01-27
 
+## [v1.0] - 2026-01-27
+### Added
+- Watchlist 管理 (`watchlist.py`)
+- 日历视图显示财报/Earnings Call 日期 (`calendar_data.py`)
+- **未来 Earnings 日期获取** (yfinance，含精确时间和盘前/盘后 BMO/AMC)
+- 批量下载 Watchlist 中所有股票
+- 侧边栏 Watchlist 管理界面
+
+### Changed
+- `app.py` - 重构为多页面结构（单股票查询 / 日历视图）
+- 日历视图分离「即将到来」和「历史记录」
+- 布局改为 wide 模式
+
+### Files Changed
+- `watchlist.py` - 新建，Watchlist 管理
+- `calendar_data.py` - 新建，日历数据获取（含未来日期）
+- `app.py` - 添加日历视图和侧边栏
+
 ## [v0.4] - 2026-01-27
 ### Added
 - Streamlit Web UI (`app.py`)
