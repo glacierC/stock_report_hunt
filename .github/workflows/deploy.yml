@@ -1,0 +1,16 @@
+name: Deploy to home-mac
+
+on:
+  workflow_dispatch:
+    inputs:
+      confirm:
+        description: 'Type "deploy" to confirm'
+        required: true
+
+jobs:
+  deploy:
+    if: github.event.inputs.confirm == 'deploy'
+    runs-on: self-hosted
+    steps:
+      - name: Deploy stock_report_hunt
+        run: ~/bin/deploy.sh stock_report_hunt
