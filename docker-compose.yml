@@ -5,4 +5,5 @@ services:
       - "8501:8501"
     volumes:
       - ./downloads:/app/downloads
+    env_file: .env
     restart: unless-stopped
